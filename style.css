@@ -25,7 +25,7 @@
     border: solid black 1px;
     padding:  0 10px;
     display: flex;
-    
+    letter-spacing: 2px;
     font-family: 'fontescreen', sans-serif;
     font-size: 35px;
 }
