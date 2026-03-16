@@ -1,0 +1,35 @@
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
+    margin-right: 0;
+    margin-left: 0;
+ align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:repeat(3, 80px);
+    gap: 20px;
+    grid-template-rows: auto;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#calculadora{
+       align-items: center;
+    justify-content: center;
+    justify-items: center; 
+    background-color: rgb(111, 158, 142);
+    padding: 15px;
+    border-radius: 10%;
+}
