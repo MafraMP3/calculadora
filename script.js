@@ -26,3 +26,8 @@ function calcular(){
     currentInput = "";
     }
 }
+
+function limpar(){
+    currentInput = "";
+    display.textContent = "";
+}
