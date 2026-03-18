@@ -88,7 +88,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(assets/images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(assets/images/Luv\(sic\)\ Part\ 2\ Watercolor\ -\ high\ res.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ body{
        align-items: center;
     justify-content: center;
     justify-items: center; 
-    background-color: rgb(111, 158, 142, 0.6);
+    background-color: rgba(117, 158, 111, 0.6);
     backdrop-filter: blur(10px);
     padding: 15px;
     border-radius: 10%;

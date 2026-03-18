@@ -36,3 +36,7 @@ function deletar(){
     currentInput = currentInput.slice(0,-1);
     display.textContent = currentInput;
 }
+
+document.addEventListener("click", function() {
+    document.getElementById("musica").play();
+}, { once: true });
