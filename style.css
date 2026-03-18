@@ -34,6 +34,7 @@ p{
     align-items: center;
     justify-content: center;
     justify-items: center;
+    overflow: hidden;
 }
 .longo{
     background-color: rgb(253, 178, 81, 0.9);

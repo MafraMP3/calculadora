@@ -31,3 +31,8 @@ function limpar(){
     currentInput = "";
     display.textContent = "";
 }
+
+function deletar(){
+    currentInput = currentInput.slice(0,-1);
+    display.textContent = currentInput;
+}
