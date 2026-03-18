@@ -22,7 +22,7 @@ function calcular(){
         currentInput = resultado;
     display.textContent = currentInput;
     } catch(erro){
-    display.textContent = erro;
+    display.textContent = "Invalido";
     currentInput = "";
     }
 }
