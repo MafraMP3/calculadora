@@ -16,10 +16,13 @@
     font-family: 'fontescreen';
     src: url('assets/fonts/digital-7\ \(mono\).ttf') format('truetype');
 }
+p{
+    font-size: 25px;
+}
 #screen{
     width: 500px;
     height: 100px;
-    background-color: antiquewhite;
+    background-color: rgba(255, 160, 35, 0.6);
     border-radius: 40px;
     margin: 15px;
     border: solid black 1px;
@@ -28,9 +31,12 @@
     letter-spacing: 2px;
     font-family: 'fontescreen', sans-serif;
     font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 .longo{
-    background-color: rgb(253, 178, 81);
+    background-color: rgb(253, 178, 81, 0.9);
     border-radius: 60px;
     border: 1px solid black;
     height: 180px;
@@ -56,14 +62,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(assets/images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #Calculadora{
        align-items: center;
     justify-content: center;
     justify-items: center; 
-    background-color: rgb(111, 158, 142);
+    background-color: rgb(111, 158, 142, 0.6);
+    backdrop-filter: blur(10px);
     padding: 15px;
     border-radius: 10%;
+    border: 10px solid rgba(96, 136, 123, 0.6);
 }
 .flex{
     display: flex;

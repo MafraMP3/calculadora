@@ -9,4 +9,20 @@ function adicionarnumero(valor){
 
 function adicionaroperador(operador){
     if (currentInput === " " && operador !== ".") return
+    currentInput += operador;
+    display.textContent = currentInput;
+}
+
+function calcular(){
+    try{
+        let resultado = eval(currentInput)
+        if(!Number.isInteger(resultado)){
+            resultado = resultado.toFixed(2)
+        }
+        currentInput = resultado;
+    display.textContent = currentInput;
+    } catch(erro){
+    display.textContent = erro;
+    currentInput = "";
+    }
 }
